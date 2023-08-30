@@ -1,5 +1,21 @@
 #!/bin/bash
 
+white_background="\e[107m"
+red_background="\e[101m"
+green_background="\e[102m"
+blue_background="\e[104m"
+purple_background="\e[105m"
+black_background="\e[40m"
+
+white_text="\e[97m"
+red_text="\e[91m"
+green_text="\e[92m"
+blue_text="\e[94m"
+purple_text="\e[95m"
+black_text="\e[30m"
+
+end="\e[0m"
+
 declare -A colors
 colors=(
     [1]=$white_background [2]=$red_background [3]=$green_background
