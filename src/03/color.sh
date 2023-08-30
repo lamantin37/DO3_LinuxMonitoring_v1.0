@@ -27,10 +27,10 @@ text_colors=(
     [3]="$blue_text" [4]="$purple_text" [5]="$black_text"
 )
 
-mass[0]=0
-mass[1]=1
-mass[2]=2
-mass[3]=3
+mass[0]=$1
+mass[1]=$2
+mass[2]=$3
+mass[3]=$4
 
 for i in 0 2; do
     r_mass[$i]=${colors[${mass[$i]}]}
