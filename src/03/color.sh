@@ -18,12 +18,13 @@ end="\e[0m"
 
 declare -A colors
 colors=(
-    [1]=$white_background [2]=$red_background [3]=$green_background
-    [4]=$blue_background [5]=$purple_background [6]=$black_background
+    [0]="$white_background" [1]="$red_background" [2]="$green_background"
+    [3]="$blue_background" [4]="$purple_background" [5]="$black_background"
 )
+
 text_colors=(
-    [1]=$white_text [2]=$red_text [3]=$green_text
-    [4]=$blue_text [5]=$purple_text [6]=$black_text
+    [0]="$white_text" [1]="$red_text" [2]="$green_text"
+    [3]="$blue_text" [4]="$purple_text" [5]="$black_text"
 )
 
 for i in 0 2; do
